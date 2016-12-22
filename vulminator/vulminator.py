@@ -3,7 +3,7 @@ import argparse
 import feedparser
 from elasticsearch import Elasticsearch
 
-def getScriptArgumentParser(args=sys.argv):
+def getArgParser(args=sys.argv):
     """Return ArgumentParser object
 
     Kwargs:
@@ -55,7 +55,7 @@ class vulminator(object):
         
 
 def main():
-    args = getScriptArgumentParser().parse_args()
+    args = getArgParser().parse_args()
     v = vulminator(args)
     #if v.args.init:
     #    VulnInfoItem.init() #add schema to ES

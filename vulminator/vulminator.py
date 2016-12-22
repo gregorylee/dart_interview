@@ -8,8 +8,7 @@ def getScriptArgumentParser(args=sys.argv):
 
     Kwargs:
         args (list):        list of arguments that will be parsed.  The default
-                            is the sys.argv list, and should be correct for most
-                            use cases.
+                            is the sys.argv list
 
     Returns:
         ArgumentParser object that can be used to validate and execute the

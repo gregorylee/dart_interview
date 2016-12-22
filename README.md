@@ -11,5 +11,6 @@
     - *python setup.py install*
     - *vulminator  —es_host 172.17.0.2:9200*
     
--Kibana running on port 5601 @AWS IP Address
+    
+- Kibana running on port 5601 @AWS IP Address
 	-Default searches saved to assist with searching raw log input    
